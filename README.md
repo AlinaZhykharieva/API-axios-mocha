@@ -1,12 +1,12 @@
 # API-axios-mocha
-#Test Services
+# Test Services
 https://jsonplaceholder.typicode.com/
 
-#Requirements
+# Requirements
 nodejs version >= 10
 
-Install project
+# Install project
 npm i
 
-Run tests
+# Run tests
 npm t
