@@ -21,6 +21,6 @@ describe('Users service tests', () => {
     });
 
     it(`response body should have array with length ${RESPONSE_BODY_LENGTH}`, async () => {
-        expect(((await axios.get(env.uri)).data).length).eql(RESPONSE_BODY_LENGTH);
+        expect((await axios.get(env.uri)).data.length).eql(RESPONSE_BODY_LENGTH);
     });
 });
